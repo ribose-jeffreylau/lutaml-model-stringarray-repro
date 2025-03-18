@@ -1,0 +1,25 @@
+= Lutaml Modelling for array fields cast from string
+
+This is a repo to demonstrate attempts to model a string array
+that is cast from a comma-separated string,
+in link:https://github.com/lutml/lutaml-model[lutaml-model^].
+
+== Problem
+
+Given a comma-separated string,
+how can it be modelled as an array field in Lutaml?
+
+== Minimal Examples of various approaches
+
+For minimal examples of the different approaches,
+head over to:
+
+link:./spec/string_array_spec.rb[^]:: no `collection: true`; casting attempted in custom attribute class.
+link:./spec/string_collection_spec.rb[^]:: `collection: true` but no casting attempted.
+link:./spec/cast_string_collection_spec.rb[^]:: `collection: true` with casting attempted in custom attribute class.
+
+== Question
+
+Is this use case supported in Lutaml Model?
+
+If so, what is the correct way to model it?

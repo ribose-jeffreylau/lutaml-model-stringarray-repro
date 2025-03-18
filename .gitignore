@@ -1,0 +1,30 @@
+Gemfile.devel
+
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+/.rubocop-https---**
+/templates/*
+!/templates/base
+/test.*
+/test
+/testrelaton.xml
+/extract/
+/site/
+
+# rspec failure tracking
+.rspec_status
+.vscode/
+relaton/
+
+*.gem
+
+.rubocop-https--*
+
+# Direnv
+.direnv/
